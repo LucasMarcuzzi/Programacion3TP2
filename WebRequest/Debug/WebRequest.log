@@ -1,0 +1,124 @@
+﻿Compilación iniciada a las 30/5/2017 12:59:23 a. m..
+     1>Proyecto "C:\Users\Lucas\Documents\Visual Studio 2013\Projects\Tp2Programacion3\WebRequest\WebRequest.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Lucas\Documents\Visual Studio 2013\Projects\Tp2Programacion3\\json-develop\src" /I"C:\Users\Lucas\Documents\Visual Studio 2013\Projects\Tp2Programacion3\\SFML-2.4.2\include" /I"C:\Users\Lucas\Documents\Visual Studio 2013\Projects\Tp2Programacion3\\rapidjson" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt WebRequest.cpp
+         WebRequest.cpp
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(149): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(432): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(433): error C2143: error de sintaxis : falta ';' delante de 'std::array<uint8_t,8>'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(433): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(502): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(526): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(538): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(550): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(648): error C2144: error de sintaxis : 'bool' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(648) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::has_mapped_type<T>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(648): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(649): error C2144: error de sintaxis : 'bool' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(649) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::has_key_type<T>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(649): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(650): error C2144: error de sintaxis : 'bool' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(650) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::has_value_type<T>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(650): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(651): error C2144: error de sintaxis : 'bool' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(651) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::has_iterator<T>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(651): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(662): error C2144: error de sintaxis : 'auto' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(667) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::is_compatible_object_type_impl<true,RealType,CompatibleObjectType>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(662): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(662): error C2853: 'value' : un miembro de datos no estáticos no puede tener un tipo que contiene 'auto'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(672): error C2146: error de sintaxis : falta ';' delante del identificador 'value'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(677) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::is_compatible_object_type<BasicJsonType,CompatibleObjectType>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(672): error C3531: 'constexpr': un símbolo cuyo tipo contiene 'auto' debe tener un inicializador
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(672): error C2143: error de sintaxis : falta ';' delante de '='
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(672): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(676): error C2238: símbolos (token) inesperados delante de ';'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(682): error C2146: error de sintaxis : falta ';' delante del identificador 'value'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(687) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::is_basic_json_nested_type<BasicJsonType,T>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(682): error C3531: 'constexpr': un símbolo cuyo tipo contiene 'auto' debe tener un inicializador
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(682): error C2143: error de sintaxis : falta ';' delante de '='
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(682): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(686): error C2238: símbolos (token) inesperados delante de ';'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(692): error C2146: error de sintaxis : falta ';' delante del identificador 'value'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(701) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::is_compatible_array_type<BasicJsonType,CompatibleArrayType>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(692): error C3531: 'constexpr': un símbolo cuyo tipo contiene 'auto' debe tener un inicializador
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(692): error C2143: error de sintaxis : falta ';' delante de '='
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(692): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(700): error C2238: símbolos (token) inesperados delante de ';'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(713): error C2144: error de sintaxis : 'auto' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(718) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::is_compatible_integer_type_impl<true,RealIntegerType,CompatibleNumberIntegerType>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(713): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(713): error C2853: 'value' : un miembro de datos no estáticos no puede tener un tipo que contiene 'auto'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(723): error C2144: error de sintaxis : 'auto' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(728) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::is_compatible_integer_type<RealIntegerType,CompatibleNumberIntegerType>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(723): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(723): error C2853: 'value' : un miembro de datos no estáticos no puede tener un tipo que contiene 'auto'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(743): error C2144: error de sintaxis : 'bool' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(745) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::has_from_json<BasicJsonType,T>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(743): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(761): error C2144: error de sintaxis : 'bool' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(763) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::has_non_default_from_json<BasicJsonType,T>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(761): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(776): error C2144: error de sintaxis : 'bool' debe estar precedido de ';'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(778) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::has_to_json<BasicJsonType,T>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(776): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(790): warning C4346: 'std::is_same<T,BasicJsonType::boolean_t>::value' : un nombre dependiente no es un tipo
+                 prefijo con 'typename' para indicar un tipo
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(790): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(805): warning C4346: 'std::is_floating_point<FloatType>::value' : un nombre dependiente no es un tipo
+                 prefijo con 'typename' para indicar un tipo
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(805): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(814): warning C4346: 'nlohmann::detail::is_compatible_integer_type<BasicJsonType::number_unsigned_t,CompatibleNumberUnsignedType>::value' : un nombre dependiente no es un tipo
+                 prefijo con 'typename' para indicar un tipo
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(814): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(823): warning C4346: 'nlohmann::detail::is_compatible_integer_type<BasicJsonType::number_integer_t,CompatibleNumberIntegerType>::value' : un nombre dependiente no es un tipo
+                 prefijo con 'typename' para indicar un tipo
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(823): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(831): warning C4346: 'std::is_enum<EnumType>::value' : un nombre dependiente no es un tipo
+                 prefijo con 'typename' para indicar un tipo
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(831): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1093): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1093): error C2065: 'j' : identificador no declarado
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1093): error C2065: 'val' : identificador no declarado
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1093): error C3861: 'noexcept': no se encontró el identificador
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1094): error C3551: se esperaba un tipo de valor devuelto final
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1094): error C2072: 'call' : inicialización de una función
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1094): error C2988: declaración o definición de plantilla irreconocible
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1094): error C2059: error de sintaxis : '->'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1101): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1109): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1109): error C2027: uso del tipo 'nlohmann::detail::to_json_fn' sin definir
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1090) : vea la declaración de 'nlohmann::detail::to_json_fn'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1109): error C2065: 'j' : identificador no declarado
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1109): error C2065: 'val' : identificador no declarado
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1109): error C3861: 'noexcept': no se encontró el identificador
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1112): error C2072: 'operator ()' : inicialización de una función
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1120): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1120): error C2065: 'j' : identificador no declarado
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1120): error C2065: 'val' : identificador no declarado
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1120): error C3861: 'noexcept': no se encontró el identificador
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1121): error C3551: se esperaba un tipo de valor devuelto final
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1121): error C2072: 'call' : inicialización de una función
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1121): error C2988: declaración o definición de plantilla irreconocible
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1121): error C2059: error de sintaxis : '->'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1128): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1136): error C3646: 'noexcept' : especificador de invalidación desconocido
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1136): error C2027: uso del tipo 'nlohmann::detail::from_json_fn' sin definir
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1116) : vea la declaración de 'nlohmann::detail::from_json_fn'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1136): error C2065: 'j' : identificador no declarado
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1136): error C2065: 'val' : identificador no declarado
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1136): error C3861: 'noexcept': no se encontró el identificador
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1139): error C2072: 'operator ()' : inicialización de una función
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1146): error C2146: error de sintaxis : falta ';' delante del identificador 'T'
+                 c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1147) : vea la referencia a la creación de instancias de plantilla de clase 'nlohmann::detail::static_const<T>' que se está compilando
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1146): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1150): error C2146: error de sintaxis : falta ';' delante del identificador 'T'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1150): error C2065: 'T' : identificador no declarado
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1150): error C2923: 'nlohmann::detail::static_const' : 'T' no es un argumento de tipo de plantilla válido para el parámetro 'T'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1150): error C2143: error de sintaxis : falta ';' delante de 'nlohmann::detail::static_const<T>::value'
+     1>c:\users\lucas\documents\visual studio 2013\projects\tp2programacion3\json-develop\src\json.hpp(1150): fatal error C1903: no se puede recuperar de errores anteriores; se detiene la compilación
+     1>Compilación del proyecto terminada "C:\Users\Lucas\Documents\Visual Studio 2013\Projects\Tp2Programacion3\WebRequest\WebRequest.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:01.51
